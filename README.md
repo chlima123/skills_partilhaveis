@@ -16,4 +16,5 @@ cp -R "/tmp/skills_partilhaveis/$SKILL" ~/.hermes/skills/
 
 | Skill | Descrição |
 |---|---|
+| [apple-design](apple-design/) | Abordagem da Apple para design de interface e movimento fluido/físico, traduzida para a web (gestos, springs, momentum, materiais translúcidos, tipografia, reduced-motion). |
 | [pesquisa-jurisprudencial-ia](pesquisa-jurisprudencial-ia/) | Pesquisa jurisprudencial com IA usando os 6 prompts, com o relatório publicado diretamente no chat. |
