@@ -17,5 +17,5 @@ cp -R "/tmp/skills_partilhaveis/$SKILL" ~/.hermes/skills/
 | Skill | Descrição |
 |---|---|
 | [apple-design](apple-design/) | Abordagem da Apple para design de interface e movimento fluido/físico, traduzida para a web (gestos, springs, momentum, materiais translúcidos, tipografia, reduced-motion). |
-| [analise-processo-6-prompts](analise-processo-6-prompts/) | Análise de processo extenso por IA em 6 etapas encadeadas (MAPEAR → DECOMPOR → CRUZAR → COMPARAR → TESTAR → AUDITAR), com relatório executivo auditado. Inclui script `analise_processo_ia.sh`. |
+| [analise-processo-6-prompts](analise-processo-6-prompts/) | Análise de processo extenso por IA em 6 etapas encadeadas (MAPEAR → DECOMPOR → CRUZAR → COMPARAR → TESTAR → AUDITAR), com relatório executivo auditado **e dashboard HTML navegável** (busca full-text, setas no teclado, seções por etapa, imprimir/PDF). Inclui `analise_processo_ia.sh` + `gerar_dashboard.py`. |
 | [pesquisa-jurisprudencial-ia](pesquisa-jurisprudencial-ia/) | Pesquisa jurisprudencial com IA usando os 6 prompts, com o relatório publicado diretamente no chat. |

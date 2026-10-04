@@ -155,3 +155,12 @@ REL="$OUTDIR/RELATORIO_FINAL.md"
 
 echo
 echo ">> Relatório final: $REL"
+
+# ---------- Dashboard HTML (single-file, entregável padrão) ----------
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ -f "$SCRIPT_DIR/gerar_dashboard.py" ]] && command -v python3 >/dev/null 2>&1; then
+  echo
+  echo "== Gerando dashboard HTML…"
+  python3 "$SCRIPT_DIR/gerar_dashboard.py" --dir "$OUTDIR" \
+    || echo "!! Falha ao gerar dashboard (o RELATORIO_FINAL.md foi preservado)." >&2
+fi
